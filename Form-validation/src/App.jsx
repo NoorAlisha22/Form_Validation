@@ -29,7 +29,7 @@ function App() {
       placeholder:"Email",
       errorMessage:"It should be a valid email address!",
       label:"Email",
-      required:true
+      required:true,
     },
     {
       id:3,
