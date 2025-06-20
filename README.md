@@ -1,4 +1,4 @@
-🚀 Form Validation (React + Vite)
+### 🚀 Form Validation (React + Vite)
 A React + Vite application that demonstrates clean and responsive form validation with modular components. The app ensures user inputs are validated in real-time for a better user experience.
 
 ## Preview
@@ -8,32 +8,52 @@ A React + Vite application that demonstrates clean and responsive form validatio
 
 ## Features
 ✅ React + Vite powered app
+
 ✅ Real-time input validation
+
 ✅ Email and password checks
+
 ✅ Confirm password match
+
 ✅ Modular component structure (components/)
+
 ✅ Responsive CSS
 
 ## Tech Stack
 ⚛ React (JSX)
+
 ⚡ Vite
+
 🎨 CSS
 
 ## Folder Structure
 
 Form_Validation/
+
 ├── src/
+
 │   ├── components/
+
 │   │   ├── FormValidation.jsx
+
 │   │   └── FormValidation.css
+
 │   ├── App.jsx
+
 │   ├── App.css
+
 │   ├── main.jsx
+
 │   ├── index.css
+
 ├── index.html
+
 ├── package.json
+
 ├── package-lock.json
+
 ├── vite.config.js
+
 └── .gitignore
 
 ## Getting Started
@@ -57,15 +77,22 @@ Visit http://localhost:5173/ in your browser.
 
 ## How It Works
 Username: Required
+
 Email: Must be valid (e.g. test@example.com)
+
 Password: Length + strength validation
+
 Confirm Password: Must match password
+
 Validation logic is handled in FormValidation.jsx.
 
 ## Available Scripts
 Command	Action
+
 npm run dev	Start dev server
+
 npm run build	Build for production
+
 npm run preview	Preview production build
 
 ## Contributing
