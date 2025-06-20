@@ -5,9 +5,7 @@ function Forminput(props) {
     const [focused, setFocused] = useState(false);
     const { label, errorMessage, onChange, id, ...inputProps } = props;
 
-    const handleFocus = (e) => {
-        setFocused(true);
-    };
+    
 
     const handleInvalid = (e) => {
         e.target.setCustomValidity('🤯Enter the valid input😵');
@@ -23,7 +21,7 @@ function Forminput(props) {
             <input 
                 {...inputProps}
                 onChange={onChange}
-                onBlur={handleFocus}
+                onBlur={() => setFocused(true)}
                 onFocus={() => inputProps.name === "confirmPassword" && setFocused(true)}
                 focused={focused.toString()}
                 onInvalid={handleInvalid} 
