@@ -11,7 +11,7 @@ function App() {
     confirmPassword: ""
   });
 
-  const [success, setSuccess] = useState(false);  // 🔥 for success message
+  const [success, setSuccess] = useState(false);  
 
   const inputs = [
     {
