@@ -87,6 +87,7 @@ function App() {
             {...input}
             value={values[input.name]}
             onChange={onChange}
+            type={input.type}
           />
         ))}
         <button type='submit' className="submit-button">Submit</button>
